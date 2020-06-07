@@ -8,7 +8,7 @@ import android.util.Log;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 
-    private static final String TAG = "DatabaseHelper";
+    private static final String DATABASE_NAME = "NameandAge.db";
     private static final String TABLE_NAME = "Name and Age";
     private static final String COL1 = "ID";
     private static final String COL2 = "Name";
